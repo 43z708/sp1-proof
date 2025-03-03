@@ -1,0 +1,1 @@
+/home/kiyo/repositories/example-sp1-wasm-verifier/proof_api/score_circuit/target/elf-compilation/riscv32im-succinct-zkvm-elf/release/score_circuit: /home/kiyo/repositories/example-sp1-wasm-verifier/proof_api/score_circuit/src/main.rs
