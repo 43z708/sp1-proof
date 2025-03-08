@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="canvas-box">
+			<img src="succinct_logo.svg" class="logo" />
+			<div class="canvas">
+				<canvas id="can" width="498" height="498"></canvas>
+			</div>
+		</div>
+		<p class="text">
+			!!PC ONLY!!
+		</p>
+    <div class="generate-proof">
+      <button id="generateProofButton">Generate Proof</button>
+      <p class="text">(This will take a few minutes)</p>
+      <p id="proofResult"></p>
+    </div>
+		<p class="text">
+			Use the cursor keys to move up, down, left, and right.
+		</p>
+		<p class="text">Spacebar to fire bullets.</p>
+		<p class="text">The game is over when you take damage four times.</p>
+		<p class="text">Verification will be implemented later.</p>
+		<p class="text--right">created by</p>
+		<div class="text--right">
+			<a onclick="copyToClipboard()" class="sns-btn">
+				<img class="sns-icon" src="discord.png" />kiyocrypt
+			</a>
+		</div>
+		<div class="text--right">
+			<a
+				href="https://twitter.com/kiyo_crypt/status/1485900473974800389?s=20"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="sns-btn"
+			>
+				<img class="sns-icon" src="twitter.png" />@kiyo_crypt
+			</a>
+		</div>
+		<script src="misc.js"></script>
+		<script src="data.js"></script>
+		<script src="jiki.js"></script>
+		<script src="teki.js"></script>
+		<script src="main.js"></script>
+		<script>
+			function copyToClipboard() {
+				navigator.clipboard.writeText("kiyocrypt").then((e) => {
+					alert("Copied! : kiyocrypt");
+				});
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+	background-image: url(desktop_succinct.webp);
+	background-size: cover;
+	margin: 0;
+	padding-bottom: 100px;
+}
+
+.canvas-box {
+	position: relative;
+	height: 850px;
+}
+.canvas {
+	text-align: center;
+	position: absolute;
+	top: 230px;
+	left: calc(50% - 299px);
+  border: 1px solid white;
+}
+.logo {
+	width: 50%;
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+}
+.chars {
+	width: 30%;
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 45%;
+}
+
+.generate-proof  {
+  text-align: center;
+}
+
+.generate-proof button {
+ font-size:20px;   
+}
+
+
+.text {
+	color: #ff00f2;
+	text-align: center;
+	font-weight: bold;
+}
+.text--right {
+	font-weight: bold;
+	color: #ff00f2;
+	text-align: right;
+	margin-right: 250px;
+	margin-bottom: 10px;
+}
+a:visited {
+	color: #ff00f2;
+}
+.sns-btn {
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+  color: #ff00f2;
+}
+.sns-icon {
+	width: 25px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
